@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    width: 50vw;
+    max-width: 800px;
+    min-width: 600px;
+    min-height: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(32, 34, 63, 0.97);
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.6rem;
+    margin: 20px 0;
+    color: #ffffff;
+    text-shadow:
+        0 0 7px #cc00ff,
+        0 0 10px #cc00ff,
+        0 0 21px #cc00ff,
+        0 0 42px #cc00ff,
+        0 0 82px #cc00ff,
+        0 0 92px #cc00ff,
+        0 0 102px #cc00ff,
+        0 0 151px #cc00ff;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 16px;
+}
+
+.form-inputs>:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.form-btn {
+    display: flex;
+    padding: 25px 16px;
+}
+
+.add-btn>span {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.toDo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.toDo-text {
+    width: 75%;
+}
+
+.toDo-text p {
+    margin: 10px;
+    overflow-wrap: anywhere;
+}
+
+.isCheck {
+    border: 1px solid #689F38;
+    opacity: 0.5;
+}
+
+.isNotCheck {
+    border: 1px solid #D32F2F;
+}
+
+.isCheckText {
+    text-decoration: line-through;
+}
+
+.alert {
+    border: 1px solid #F59E0B;
+}
